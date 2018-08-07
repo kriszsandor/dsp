@@ -10,25 +10,25 @@ Please follow and complete the free online [Bash Scripting Tutorial](https://rya
 
 Here's a list of items with which you should be familiar:  
 * show current working directory path
-›› pwd
+>> pwd
 * creating a directory
-›› mkdir
+>> mkdir
 * deleting a directory
-›› rm -r dirname
+>> rm -r dirname
 * creating a file using `touch` command
-›› touch filename.ext
+>> touch filename.ext
 * deleting a file
-›› rm -r filename.ext
+>> rm -r filename.ext
 * renaming a file
-›› mv oldname newname
+>> mv oldname newname
 * listing hidden files
-ls -a
+>> ls -a
 * copying a file from one directory to another
-cp filename newdir
+>> cp filename newdir
 * change active directory
-›› cd newdir
+>> cd newdir
 * list files in active directory
-›› ls
+>> ls
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 ---
