@@ -29,6 +29,7 @@ Here's a list of items with which you should be familiar:
 >> cd newdir
 * list files in active directory
 >> ls
+
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 ---
@@ -36,15 +37,15 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`: list the files and folders in the current directory  
+`ls -a`: list all hidden files as well
+`ls -l`: long format
+`ls -lh`: long format with sizes in human readable format
+`ls -lah`: long format, human readable sizes also for hidden files
+`ls -t`: list files fored bz modification time
+`ls -Glp`: not entirely sure
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > answer in line with text
 
 ---
 
@@ -52,7 +53,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > to be done
 
 ---
 
