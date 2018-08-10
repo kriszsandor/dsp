@@ -37,19 +37,19 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`:
+* `ls`:
 >> list the files and folders in the current directory  
-`ls -a`:
+* `ls -a`:
 >> list all hidden files as well
-`ls -l`: 
+* `ls -l`: 
 >> long format
-`ls -lh`: 
+* `ls -lh`: 
 >> long format with sizes in human readable format
-`ls -lah`: 
+* `ls -lah`: 
 >> long format, human readable sizes also for hidden files
-`ls -t`: 
+* `ls -t`: 
 >> list files fored bz modification time
-`ls -glp`: 
+* `ls -glp`: 
 >> Displays the long format listing, but exclude the owner name, with directories with per sign
 
 ---
