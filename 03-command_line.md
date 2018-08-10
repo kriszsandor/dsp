@@ -37,15 +37,20 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`: list the files and folders in the current directory  
-`ls -a`: list all hidden files as well
-`ls -l`: long format
-`ls -lh`: long format with sizes in human readable format
-`ls -lah`: long format, human readable sizes also for hidden files
-`ls -t`: list files fored bz modification time
-`ls -Glp`: not entirely sure
-
-> > answer in line with text
+`ls`:
+>> list the files and folders in the current directory  
+`ls -a`:
+>> list all hidden files as well
+`ls -l`: 
+>> long format
+`ls -lh`: 
+>> long format with sizes in human readable format
+`ls -lah`: 
+>> long format, human readable sizes also for hidden files
+`ls -t`: 
+>> list files fored bz modification time
+`ls -glp`: 
+>> Displays the long format listing, but exclude the owner name, with directories with per sign
 
 ---
 
@@ -53,7 +58,20 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > to be done
+'ls -p':
+>> displays directories with per sign
+
+'ls -t':
+>> displays newest files first (based on timestamp)
+
+'ls -u':
+>> displays files by the file access time
+
+'ls -a':
+>> displays hidden files as well
+
+'ls -R':
+>> displaysfile subdirectories as well
 
 ---
 
@@ -61,7 +79,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The xargs command in UNIX is a command line utility for building an execution pipeline from standard input.
+>> Example: create/delete a list of directories in a single line command 
 
  
 
