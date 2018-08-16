@@ -20,7 +20,7 @@ Difference in gramms | -56.59067521582213
 Cohen d | -0.088672927072602
 
 # Python code
-
+```python
 mean = live.totalwgt_lb.mean()
 var = live.totalwgt_lb.var()
 std = live.totalwgt_lb.std()
@@ -43,3 +43,4 @@ print('Difference in gramms', (mean1 - mean2) * 453.592)
 
 d = thinkstats2.CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 print('Cohen d', d)
+```
