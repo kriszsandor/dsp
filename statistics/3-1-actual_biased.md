@@ -7,10 +7,13 @@ Now compute the biased distribution we would see if we surveyed the children and
 Plot the actual and biased distributions, and compute their means. As a starting place, you can use chap03ex.ipynb.
 
 # Answer  
+Based on the actual distribution it is apparent that there are a large number of families without children or only with one child. 
 ![GitHub Logo](KS_Ex_3-1_plot1.png)
-Format: ![Plot 1]
+The actual mean: ~1.0
+
+However, if we were to ask children about the same number we are likely to overestimate the number, as children from families with 2 or more children are more likely to appear in the sample.
 ![GitHub Logo](KS_Ex_3-1_plot2.png)
-Format: ![Plot 2]
+The biased mean: ~2.4
 
 # Python code  
 ```python
