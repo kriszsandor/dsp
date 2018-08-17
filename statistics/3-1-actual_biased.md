@@ -7,11 +7,13 @@ Now compute the biased distribution we would see if we surveyed the children and
 Plot the actual and biased distributions, and compute their means. As a starting place, you can use chap03ex.ipynb.
 
 # Answer  
-file://KS_Ex_3-1_plot1.png
-file://KS_Ex_3-1_plot2.png
+![GitHub Logo](KS_Ex_3-1_plot1.png)
+Format: ![Plot 1]
+![GitHub Logo](KS_Ex_3-1_plot2.png)
+Format: ![Plot 2]
 
 # Python code  
-'''python
+```python
 resp = nsfg.ReadFemResp()
 
 resp_pmf = thinkstats2.Pmf(resp.numkdhh, label='actual')
@@ -31,4 +33,4 @@ print('observed mean', biased_pmf.Mean())
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([resp_pmf, biased_pmf])
 thinkplot.Show(xlabel='# of children in family', ylabel='PMF')
-'''
+```
