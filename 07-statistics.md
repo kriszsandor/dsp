@@ -103,7 +103,7 @@ B | 1/125 | 1/4 | 1/500 | 6/11
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> **Frequentist** statistics takes direct observations of an event in question and based on long-term observations it derives the frequency and likelihood of things happening again. **Bayesian** statistics does not take direct observations on the event in question, but rather takes indirect observations of events on whicgh the event in question is dependent.
 
 ---
 
