@@ -8,10 +8,10 @@ Generate 1000 numbers from random.random and plot their PMF and CDF. Is the dist
 The distribution is almost perfectly uniform between [0,1] using the random.random. 
 
 The CDF shows a perfectly uniform distribution:  
-!(KS_Ex_4-2_plot1.png)  
+![CDF plot](KS_Ex_4-2_plot1.png)  
 
 ... and the PMF hence shows no higher probability for any number in the sample:
-!(KS_Ex_4-2_plot2.png)  
+![PMF plot](KS_Ex_4-2_plot2.png)  
 
 # Python code  
 ```python
