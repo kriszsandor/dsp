@@ -92,10 +92,16 @@ D: boy-boy (identical can not be boy+girl)
 A: Elvis identical twin  
 B: Elvis fraternal twin  
 
+
 Case  | Prior p(H) | Likelihood p(D|H) | p(H) p(D|H) | Posterior p(H|D)
 ----  | ---------- | ----------------- | ----------- | ----------------
 A | 1/300 | 1/2 | 1/600 | 5/11
 B | 1/125 | 1/4 | 1/500 | 6/11
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 ---
 
